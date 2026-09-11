@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #111827 !important;
+  }
+  header, footer, nav, #main-navbar, #hero, #projects, #experience, #skills, #about, #contact {
+    display: none !important;
+  }
+}
